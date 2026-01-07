@@ -8,7 +8,7 @@ export default function Contact() {
                 <h2>Get In Touch</h2>
                 <p>Open to meaningful collaborations, product discussions, and Web3 innovation.</p>
                 <a href="mailto:ajeseun11@gmail.com" className="btn-primary big-btn">Say Hello</a>
-                <div className="contact-details">
+                <div className="contact-details" style={{ marginTop: '3rem' }}>
                     <p>📧 ajeseun11@gmail.com</p>
                     <div className="social-links" style={{ justifyContent: 'center', marginTop: '20px' }}>
                         <a href="https://github.com/0xaje" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">

@@ -10,11 +10,13 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollControls from './components/ScrollControls';
 import WelcomeOverlay from './components/WelcomeOverlay';
+import BackgroundAnimation from './components/BackgroundAnimation';
 
 function App() {
   return (
     <>
       <WelcomeOverlay />
+      <BackgroundAnimation />
       <div className="cursor-glow"></div>
 
       <Navbar />
